@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "icon": "Dartpausefpsmenu.png",
+  "id": "pause_fps_limiter",
+  "version": "${version}",
+  "name": "Dart: PauseFrame",
+  "description": "Temporarily limits the frame rate while Minecraft GUI screens are open, without changing the user's max framerate setting.",
+  "author": "Dart_uzi",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.pausefpslimiter.PauseFpsLimiter"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "pause_fps_limiter.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

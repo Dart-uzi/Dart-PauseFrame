@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.pausefpslimiter.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "PauseScreenMixin",
+    "MinecraftRenderFrameMixin",
+    "LevelRendererMixin",
+    "SoundEngineMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
