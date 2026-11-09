@@ -1,5 +1,15 @@
 # Pause FPS Limiter 1.0.0
 
+## About the Project
+This is my first archival school project in the field of game development and modding, created in [Указать месяц/год, например: May 2026].
+
+**Key Highlights:**
+* **Technology:** The code and application architecture were designed using generative AI tools (Prompt Engineering).
+* **Goal:** Exploring the internal structure of game engines, client-side modifications, and learning the fundamentals of Object-Oriented Programming (OOP) in Java.
+* **Result:** A fully functional client-only mod, brought to release with proper open-source licensing.
+
+---
+
 Client-only Fabric mod for Minecraft 26.3.
 
 ## Features
@@ -39,7 +49,7 @@ Open the vanilla Pause screen and use the **FPS** button to open the mod configu
 
 ## Author
 
-**Author:** Dart_uzi
+**Author:** Dart-uzi (aka Dart_uzi)
 
 ## Links
 
